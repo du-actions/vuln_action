@@ -34,4 +34,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "::set-output name=SUMMARY::GITHUB ISSUE #${{github.event.issue.number}} ${{github.event.issue.title}}"
-          echo "${{github.event.issue.title}}"
+          echo "bad"
